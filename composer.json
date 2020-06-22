@@ -1,0 +1,16 @@
+{
+    "name": "avalonstudios/mu-isntalls",
+    "description": "Custom MU Plugins",
+    "type": "wordpress-muplugin",
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Avalon Studios",
+            "email": "contact@avalonstudios.eu"
+        }
+    ],
+    "minimum-stability": "stable"
+}
