@@ -3,7 +3,7 @@
 Plugin Name: Must Use Installs
 Plugin URI: https://avalonstudios.eu
 Description: ACF Blocks Initialiser, AQ Resizer, Nav Walker
-Version: 1.0.2
+Version: 1.0.4
 Author: Avalon Studios
 Author URI: https://avalonstudios.eu
 Text Domain: mu-installs
