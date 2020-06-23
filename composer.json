@@ -1,6 +1,6 @@
 {
-    "name": "avalonstudios/mu-isntalls",
-    "description": "Custom MU Plugins",
+    "name": "avalonstudios/mu-installs",
+    "description": "Basic Custom MU Plugins",
     "type": "wordpress-muplugin",
     "require": {
         "php": ">=7.4"
