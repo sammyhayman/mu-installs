@@ -14,5 +14,3 @@ require_once(__DIR__ . '/installs/acf_blocks_init.php');
 require_once(__DIR__ . '/installs/aq_resizer.php');
 require_once(__DIR__ . '/installs/custom-pagination.php');
 require_once(__DIR__ . '/installs/nav-walker.php');
-require_once(__DIR__ . '/installs/options-pages.php');
-require_once(__DIR__ . '/installs/custom-widgets.php');
