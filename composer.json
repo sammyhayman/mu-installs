@@ -3,7 +3,7 @@
     "description": "Basic Custom MU Plugins",
     "type": "wordpress-muplugin",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.3"
     },
     "license": "MIT",
     "authors": [
