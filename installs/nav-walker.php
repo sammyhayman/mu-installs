@@ -27,11 +27,19 @@ class MDBootstrapMenu extends Walker_Nav_menu {
         }
 
         if ( in_array( 'menu-item-has-children', $classes ) ) {
-            $output .= "<li class='" . implode( " ", $classes ) . " nav-item'>";
+            if ( $depth === 0 ) {
+                $output .= "<li class='" . implode( " ", $classes ) . " nav-item xyz-nested'>";
+            } else {
+                $output .= "<li class='" . implode( " ", $classes ) . " nav-item'>";
+            }
             $output .= "<a {$atts_str} class='dropdown-item'>{$title}</a>";
             $output .= '<div class="drop-dropdown"><i class="fas fa-caret-down"></i></div>';
         } else {
-            $output .= "<li class='" . implode( " ", $classes ) . " nav-item'>";
+            if ( $depth === 0 ) {
+                $output .= "<li class='" . implode( " ", $classes ) . " nav-item xyz-nested'>";
+            } else {
+                $output .= "<li class='" . implode( " ", $classes ) . " nav-item'>";
+            }
             $output .= "<a {$atts_str} class='dropdown-item'>{$title}</a>";
         }
 

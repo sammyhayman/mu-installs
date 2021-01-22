@@ -16,7 +16,7 @@ function ava_custom_pagination() {
     ); ?>
     <div class="posts-pagination">
         <nav class="pagination">
-            <?php echo $pagination; ?>
+            <?php return $pagination; ?>
         </nav>
     </div>
 <?php
