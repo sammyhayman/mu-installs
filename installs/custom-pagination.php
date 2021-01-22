@@ -13,11 +13,12 @@ function ava_custom_pagination() {
             'next_text' => '&rarr;',
             'total'     => $wp_query->max_num_pages
         ]
-    ); ?>
-    <div class="posts-pagination">
-        <nav class="pagination">
-            <?php return $pagination; ?>
-        </nav>
-    </div>
-<?php
+    );
+
+    if ( $pagination ) {
+        $output = "<div class='posts-pagination'><nav class='pagination'>{$pagination}</nav></div>";
+        return $output;
+    }
+
+    return;
 }
